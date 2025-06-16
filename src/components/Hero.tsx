@@ -39,7 +39,7 @@ const Hero = () => {
         <div 
           className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl transform hover:scale-110 transition-transform duration-300 overflow-hidden"
         >
-          <img src="/uploads/db2691e6-ff6c-461d-8c1e-ee47f3078261.png" alt="Suraj Nate" className="w-full h-full object-cover" />
+          <img src="./uploads/surajnate.png" alt="Suraj Nate" className="w-full h-full object-cover" />
         </div>
 
         <h1 
