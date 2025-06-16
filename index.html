@@ -4,6 +4,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+
     <title>Suraj Nate - AI & Data Science Portfolio</title>
     <meta name="description" content="Interactive portfolio showcasing AI and Data Science skills, projects, achievements, and experience of Suraj Nate. Built with React, TypeScript, and modern web technologies." />
     <meta name="author" content="Suraj Nate" />
@@ -12,7 +26,7 @@
     <meta property="og:title" content="Suraj Nate - AI & Data Science Portfolio" />
     <meta property="og:description" content="Interactive portfolio showcasing AI and Data Science skills, projects, achievements, and experience of Suraj Nate." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4D03AQHuGGY88leagg/profile-displayphoto-shrink_100_100/B4DZR143PQHcAU-/0/1737144628588?e=1755734400&v=beta&t=VOpQoMZ64n9KWsCnRtQ_J4kixqdLAEe5ZwNxv0mVRWc"/>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
