@@ -140,23 +140,26 @@ const Achievements = () => {
         {
           title: "Survay Paper Publication",
           organization: "ICFTSEM-2025",
-          description: "Presented first survay paper on Transformer-Based Code Summarization at ICFTSEM-2025.",
+          description: "Presented first survay paper on Transformer-based Models in Code Summarization at ICFTSEM-2025.",
           category: "Research",
-          color: "from-green-400 to-teal-600"
+          color: "from-green-400 to-teal-600",
+          impact : "https://irjaeh.com/index.php/journal/article/view/593"
         },
         {
           title: "Hackathon at COGNITIA 2025",
           organization: "Rajiv Gandhi Institute of Technology, Mumbai",
           description: "Built AI-powered code review agent. Overcame challenges and received great feedback from judges.",
           category: "Hackathon",
-          color: "from-orange-400 to-pink-500"
+          color: "from-orange-400 to-pink-500",
+          impact : "SecureCode AI Agent – Code Reviewer"
         },
         {
           title: "Research Paper Publication",
           organization: "IJRAR",
-          description: "Published paper titled 'CODE SUMMARIZER' in IJRAR, April 2025 Edition.",
+          description: "Published paper titled 'CODE SUMMARIZER: A TRANSFORMER – BASED APPROACH FOR AUTOMATED CODE UNDERSTANDING' in IJRAR, April 2025 Edition.",
           category: "Research",
-          color: "from-cyan-500 to-blue-700"
+          color: "from-cyan-500 to-blue-700",
+          impact : "https://ijrar.org/viewfull.php?&p_id=IJRAR25B1024"
         }
       ]
     }
