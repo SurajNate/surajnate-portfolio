@@ -115,8 +115,8 @@ const Contact = ({ scrollY }: ContactProps) => {
     },
     { 
       icon: <Camera size={24} />, 
-      name: "Camera", 
-      url: "https://www.instagram.com/suraj_nate?igsh=ajB6OHpwZWpicXhl", 
+      name: "Photography", 
+      url: "https://www.pexels.com/@suraj-nate-2153301455/", 
       color: "hover:text-purple-400" 
     }
   ];
