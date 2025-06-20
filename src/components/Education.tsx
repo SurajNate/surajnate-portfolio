@@ -14,7 +14,7 @@ const Education = ({ scrollY }: EducationProps) => {
       degree: "BE. Artificial Intelligence and Data science",
       school: "Rajiv Gandhi Institute Of Technology, Mumbai",
       year: "Nov 2022 – May 2025",
-      gpa: "9.1 CGPA*",
+      gpa: "9.23 CGPA",
       achievements: ["Engineering Mathematics III – 100/100"],
       description: "Completed Bachelor of Engineering with a specialization in AI and Data Science, focusing on machine learning and advanced AI, GenAI algorithms.",
       icon: "🎓"
