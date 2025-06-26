@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 const Hero = () => {
   const [text, setText] = useState('');
   const [showCursor, setShowCursor] = useState(true);
-  const fullText = "Artificial Intelligence and Data Science Engineer";
+  const fullText = "AI/ML and Data Science Engineer";
 
   useEffect(() => {
     const typeText = async () => {
@@ -39,7 +39,7 @@ const Hero = () => {
         <div 
           className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-400 to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl transform hover:scale-110 transition-transform duration-300 overflow-hidden"
         >
-          <img src="./uploads/surajnate.png" alt="Suraj Nate" className="w-full h-full object-cover" />
+          <img src=".\uploads\surajnate.png" alt="Suraj Nate" className="w-full h-full object-cover" />
         </div>
 
         <h1 
@@ -82,6 +82,38 @@ const Hero = () => {
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Get In Touch 📧
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-white/30 text-black hover:bg-white/10 px-8 py-3 rounded-full transform hover:scale-105 transition-all duration-300"
+            onClick={() => window.open('https://www.instagram.com/suraj_nate?igsh=ajB6OHpwZWpicXhl', '_blank')}
+          >
+            Instagram <img src=".\uploads\instagram.png" alt="Instagram" className="w-full h-full object-cover" />
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-white/30 text-black hover:bg-white/10 px-8 py-3 rounded-full transform hover:scale-105 transition-all duration-300"
+            onClick={() => window.open('https://www.linkedin.com/in/suraj-nate-50001a27b/', '_blank')}
+          >
+            LinkedIn <img src=".\uploads\linkedin.png" alt="LinkedIn" className="w-full h-full object-cover" />
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-white/30 text-black hover:bg-white/10 px-8 py-3 rounded-full transform hover:scale-105 transition-all duration-300"
+            onClick={() => window.open('https://github.com/SurajNate', '_blank')}
+          >
+            GitHub <img src=".\uploads\github.png" alt="Github" className="w-full h-full object-cover" />
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-white/30 text-black hover:bg-white/10 px-8 py-3 rounded-full transform hover:scale-105 transition-all duration-300"
+            onClick={() => window.open('https://www.pexels.com/@suraj-nate-2153301455/', '_blank')}
+          >
+            Photography <img src=".\uploads\photography.png" alt="Github" className="w-full h-full object-cover" />
           </Button>
         </div>
 
